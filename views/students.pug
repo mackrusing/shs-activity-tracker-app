@@ -1,0 +1,20 @@
+doctype html
+html(lang="en-us")
+    head
+        //- metadata
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        base(href="/")
+
+        //- page info
+        title Students
+
+        //- stylesheets
+        link(href="/resources/styles/style.css", rel="stylesheet", type="text/css")
+
+        //- scripts
+        script(type="module" src="/resources/scripts/students.js", defer)
+    body
+        include partials/_nav.pug
+        h1 Students
+        div.page-container

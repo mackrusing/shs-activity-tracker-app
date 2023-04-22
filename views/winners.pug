@@ -1,0 +1,20 @@
+doctype html
+html(lang="en-us")
+    head
+        //- metadata
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        base(href="/")
+
+        //- page info
+        title Winners
+
+        //- stylesheets
+        link(href="/resources/styles/style.css", rel="stylesheet", type="text/css")
+
+        //- scripts
+        script(type="module" src="/resources/scripts/winners.js", defer)
+    body
+        include partials/_nav.pug
+        h1 Winners
+        div.page-container

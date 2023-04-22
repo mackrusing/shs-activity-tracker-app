@@ -1,0 +1,27 @@
+{
+  "name": "shs-activity-tracker-app",
+  "version": "1.0.0",
+  "description": "SHS Activity Tracker - Web App",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "npx nodemon main.js",
+    "install": "",
+    "build": "npx tsc && npx sass styles/:build/styles/ --no-source-map",
+    "clean": "rm -r build/",
+    "watch-ts": "npx tsc -w",
+    "watch-sass": "npx sass -w styles/:build/styles/ --no-source-map"
+  },
+  "author": "Mack Rusing",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/esm": "^1.0.3",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
